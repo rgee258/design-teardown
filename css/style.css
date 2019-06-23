@@ -1,0 +1,404 @@
+/* Universal */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+/* Header Navigation */
+
+.main-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Comfortaa', cursive;
+  background-color: #666666;
+}
+
+.main-nav div {
+  display: inline-block;
+  flex-basis: 13%;
+  padding: 6% 0;
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* Main Content */
+
+/* Featured Articles */
+
+.featured {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Comfortaa', cursive;
+}
+
+.featured header {
+  width: 100%;
+}
+
+.featured .latest-header {
+  position: relative;
+  width: 100%;
+  padding: 3% 0;
+}
+
+.featured .latest-header .dont-miss {
+  position: absolute;
+  top: 10%;
+  right: 36%;
+  font-weight: 900;
+  font-size: 1.1rem;
+  background-color: #333333;
+}
+
+.featured .latest-header .seriously {
+  position: absolute;
+  top: 40%;
+  right: 3%;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: #808080;
+}
+
+.featured .post {
+  flex-basis: 50%;
+  padding: 20% 0;
+  text-align: center;
+}
+
+.featured .post p {
+  font-weight: 900;
+  font-size: 1.1rem;
+  background-color: #808080
+}
+
+.featured .post h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  background-color: #666666
+}
+
+/* Latest Posts */
+
+
+.latest {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.latest .posts {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.latest .post {
+  flex-basis: 33%;
+  padding: 20% 0;
+  text-align: center;
+}
+
+.latest .post h2 {
+  font-weight: 900;
+  font-size: 1.75rem;
+  background-color: #808080;
+}
+
+.latest .post p {
+  font-size: 1rem;
+  background-color: #999999;
+}
+
+/* Latest Posts - Supporters */
+
+.support {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5% 0;
+}
+
+.support .supporters {
+  flex-basis: 25%;
+  padding: 6% 0;
+  background-color: #666666;
+  text-align: center;
+}
+
+.support .supporters h4 {
+  background-color: #4d4d4d;
+}
+
+.support .members {
+  flex-basis: 65%;
+  padding: 25% 0;
+  background-color: #4d4d4d;
+  text-align: center;
+}
+
+.support .members h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  background-color: #333333;
+}
+
+.support .members h4 {
+  font-weight: 900;
+  font-size: 1.3rem;
+  background-color: #333333;
+}
+
+/* Latest Posts - TV */
+
+.posts .tv {
+  flex-basis: 66%;
+  padding: 20% 0;
+  text-align: center;
+  background-color: #4d4d4d;
+}
+
+.posts .tv h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  background-color: #333333;
+}
+
+.posts .tv h4 {
+  font-weight: 900;
+  font-size: 1.3rem;
+  background-color: #333333;
+}
+
+/* Latest Posts - Closer */
+
+.latest .all-latest {
+  flex-basis: 100%;
+  padding: 7% 0;
+  text-align: center;
+}
+
+.latest .all-latest p {
+  background-color: #808080;
+}
+
+/* Conference */
+
+.conference {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 0;
+  background-color: #666666;
+}
+
+.conference div {
+  margin: 7% 0;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.conference .conference-explore {
+  padding: 2%;
+  font-weight: 900;
+  font-size: 1.5rem;
+  background-color: #333333;
+}
+
+/* Community Links */
+
+.community {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.community .potw {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 10%;
+}
+
+.community .potw h1 {
+  background-color: #333333;
+}
+
+.community .links {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 9%;
+}
+
+.community .link {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.community .link p {
+  font-size: 1.2rem;
+  background-color: #999999;
+}
+
+.community .link h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+  background-color: #808080;
+}
+
+.community .more-links {
+  flex-basis: 100%;
+  text-align: center;
+  padding: 7% 0;
+}
+
+.community .more-links p {
+  background-color: #808080;
+}
+
+/* Book Promotion */
+
+.book {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #4d4d4d;
+}
+
+.book div {
+  margin: 7% 10%;
+  text-align: center;
+}
+
+.book .featured-book {
+  font-weight: 900;
+  font-size: 1.5rem;
+  background-color: #333333;
+}
+
+.book .table-of-contents {
+  padding: 2%;
+  font-weight: 900;
+  font-size: 1.3rem;
+  background-color: #333333;
+}
+
+/* Curated Posts */
+
+.curated .posts {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.curated .post {
+  flex-basis: 20%;
+  padding: 20% 0;
+}
+
+.curated .post h2 {
+  font-weight: 900;
+  font-size: 1.8rem;
+  background-color: #808080;
+}
+
+.curated .post p {
+  font-size: 1.3rem;
+  background-color: #999999;
+}
+
+/* Curated Posts - Newsletter */
+
+.curated .newsletter {
+  flex-basis: 66%;
+  padding: 20% 0;
+  text-align: center;
+  background-color: #4d4d4d;
+}
+
+.newsletter div {
+  margin: 7% 30%;
+  text-align: center;
+}
+
+.newsletter h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  background-color: #333333;
+}
+
+.newsletter .subscribe {
+  padding: 2%;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: #333333;
+}
+
+/* Curated Posts - Closer */
+
+.curated .all-curated {
+  flex-basis: 100%;
+  padding: 7% 0;
+  text-align: center;
+}
+
+.curated .all-curated p {
+  background-color: #808080;
+}
+
+/* Closing Footer */
+
+footer {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4d4d4d;
+}
+
+footer header {
+  margin-top: 5%;
+}
+
+footer .topics {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  margin-bottom: 5%;
+  font-size: 1.5rem;
+  background-color: #333333;
+}
+
+footer .attributions {
+  margin-bottom: 15%;
+}
